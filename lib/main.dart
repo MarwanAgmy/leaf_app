@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:leaf_social_media_app/views/home_view.dart';
+import 'package:leaf_social_media_app/pages/home_page.dart';
 
 void main() {
   runApp(const LeafApp());
@@ -12,7 +12,7 @@ class LeafApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeView(),
+      home: HomePage(),
     );
   }
 }
